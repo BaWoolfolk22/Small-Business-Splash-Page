@@ -11,6 +11,7 @@ html {
 html {
     font-size: 16px;
     width: 100%;
+    
 }
 
 
@@ -27,27 +28,22 @@ li {
     display: inline-block;
 }
 
-nav {
-    display: flex;
-    flex-shrink: 3;
-    flex-flow: column;  
-}
-  
 
 
-li a {
-    
+
+li.nav-item a {
     font-family: 'PT Sans', sans-serif;
     color:#3a3939;
-    font-size: 1.6rem;
+    font-size: 1.2em;
     display: block; 
     text-decoration: none;
-    padding: 50px 50px;
-    line-height: 1.2; 
+    padding: 10px 10px;
     width: 100%;
     height: auto;
-  }
-
+    font-size: 1em;
+    margin-top: 20px;
+    
+}
   /* Fonts & Headers */
 
 
@@ -76,7 +72,7 @@ h3 {
     color:#3d2d2d;
     font-family: 'PT Sans', sans-serif;
     font-size: 2rem;
-    padding: 40px 10px;
+    padding: 30px 10px;
     line-height: 1.5rem;
     text-align: center;
    
@@ -87,20 +83,16 @@ h4 {
     font-family: "Laila", sans-serif;
     font-size: 1.6rem;
     text-align: center;
-   
-   
-    
-    
-
 }
 
 h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'PT Sans', sans-serif;
     font-weight: 100;
-    line-height:2.5rem;
+    line-height: 1.6;
     text-align: center;
-    color:#f9f7f4;  
+    color:#f9f7f4;
+    
 }
 
 
@@ -152,6 +144,7 @@ header {
     align-items: center;
     margin-bottom: 100px;
     text-align: center; 
+  
 }
 
 
@@ -165,6 +158,8 @@ header {
     justify-content: space-around; 
     align-items: center;
 }
+
+
 
 
 .product {
@@ -223,8 +218,7 @@ a:active {
     align-self: center;
     text-align: center;
     line-height: 1.2;
-    min-width: 25%;
-    max-width: 40%; 
+    max-width: 75%; 
     margin: 20px;
   
 }
@@ -233,7 +227,7 @@ a:active {
 
 .products {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #f9f7f4;
     width: 400px;
     padding: 20px 20px;
@@ -273,7 +267,7 @@ p {
 
 
 
-h3#About.second-header {
+h3#about.second-header {
     color:#3d2d2d;
     font-family: 'PT Sans', sans-serif;
     font-size: 2rem;
@@ -295,24 +289,30 @@ h3.third-header {
 
 
 
-.intro {
+
+
+p.intro {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 2rem;
-    color: #282a2d; 
+    color: #040b16; 
     margin: auto;
     padding-bottom: 50px;
-    min-width: 25%;
-    max-width: 40%;     
+    
+    max-width: 80%;     
 }
 
 /* Responsive */
 
 
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
+
+        /* Navigation */
+
         .hero-container {
             flex-direction: column;
+            font-size: 1em;
         }
 
         .image-container {
@@ -324,16 +324,99 @@ h3.third-header {
             
         }
 
+        figcaption {
+            font-size: 1rem;
+            padding-bottom: 20px;
+        }
+
         .product {
             flex-direction: column;
         }
 
     }
 
-    @media (max-width: 440px) {
+    @media (max-width: 375px) {
+        
+        /* Navigation */
+        
         header {
             text-align: center;
-            
-            
+            margin-top: 50px;
         }
+
+        li a {
+            padding: 5px 4px;
+            font-size: .9em;
+        }
+
+       
+/* Headers */
+
+ h2.welcome {
+    font-size: 1.9rem;
+    margin-top: 10px;
+}
+
+h2#bakery {
+    font-size: 1.8rem;
+}
+
+h3.third-header {
+    font-size: 1.9rem;
+}
+
+h3#about.second-header {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+   
+    font-size: 1.3rem;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+   
+   
+}
+
+h3#products {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+
+}
+
+
+h4.company {
+    font-size: 1em;
+}
+
+h5.contact {
+    font-size: .9rem;
+    
+}
+
+ /* Text */
+
+p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+p.intro {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+figcaption {
+    font-size: .9rem;
+    padding-bottom: 20px;
+}
+
+
+        h3#About.second-header {
+            margin-bottom: 20px;
+        }
+
     }
+
+
