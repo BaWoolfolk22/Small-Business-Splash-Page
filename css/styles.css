@@ -1,0 +1,490 @@
+html {
+    box-sizing: border-box;  
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    width: 100%;
+    
+}
+
+
+/* Navigation */
+
+
+.logo {
+    color:#3d2d2d;
+    font-size: 1.4rem;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+}
+
+
+
+
+li.nav-item a {
+    font-family: 'PT Sans', sans-serif;
+    color:#3a3939;
+    font-size: 1.2em;
+    display: block; 
+    text-decoration: none;
+    padding: 10px 10px;
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    margin-top: 20px;
+    
+}
+  /* Fonts & Headers */
+
+
+  h1 {
+    font-family: "Laila", sans-serif;
+    font-size: 3.6 em;
+    color: #3d2d2d;;
+}
+
+
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3rem;
+    
+}
+
+h2.welcome {
+    font-family: 'Nunito', sans-serif;
+    color:#91d2c7;
+    font-size: 2.4rem;   
+}
+
+
+h3 {
+    color:#3d2d2d;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    padding: 30px 10px;
+    line-height: 1.5rem;
+    text-align: center;
+   
+}
+
+h4 {
+    color: #FFEEAD;
+    font-family: "Laila", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100;
+    line-height: 1.6;
+    text-align: center;
+    color:#f9f7f4;
+    
+}
+
+
+
+
+ /* structure */
+
+
+ img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+ }
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    margin-top: 50px; 
+}
+
+.image-container {
+    background-color: #404452;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center; 
+    align-items: center;
+    margin-bottom: 100px; 
+    padding: 50px;
+
+}
+
+
+
+.hero-container {
+    background-color: #404452;
+    width: 100%;
+    height: auto;
+    padding: 30px 40px; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin-bottom: 100px;
+    text-align: center; 
+  
+}
+
+
+.about-us-container {
+    background-color: #404452;
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px; 
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+
+
+
+.product {
+    background-color: #404452;
+    height: auto;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:  50px;
+
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact {
+ 
+    background-color: #404452; 
+
+}
+
+/* Links */
+
+
+
+a:visited {
+    color: #5f2164;
+}
+
+a:hover {
+    color:#5f9ea0;
+    text-decoration: underline;
+}
+
+a:active {
+    color:#404452;
+    text-decoration: underline;
+}
+
+
+/* Text */
+
+.welcome-text {
+    padding: 20px 20px;
+}
+
+.what-text {
+    align-self: center;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 75%; 
+    margin: 20px;
+  
+}
+
+
+
+.products {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: #f9f7f4;
+    width: 400px;
+    padding: 20px 20px;
+    display:inline-block;
+}
+
+
+
+#bakery {
+    color: #FFEEAD;
+    font-family: "Laila", sans-serif;
+    line-height: 1.6;
+}
+
+
+
+figure, figcaption {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #f9f7f4;
+    line-height: 1.5rem;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    color: #f9f7f4;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 100%;
+        
+}
+
+
+
+h3#about.second-header {
+    color:#3d2d2d;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+h3.third-header {
+    font-family: 'PT Sans', sans-serif;
+    color:#91d2c7;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    line-height: 1.6;  
+
+}
+
+
+
+
+
+p.intro {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #040b16; 
+    margin: auto;
+    padding-bottom: 50px;
+    
+    max-width: 80%;     
+}
+
+/* Responsive */
+
+
+    @media (max-width: 768px) {
+
+        /* Navigation */
+
+        .hero-container {
+            flex-direction: column;
+            font-size: 1em;
+        }
+
+       
+        .about-us-container {
+            flex-direction: column;
+            
+        }
+
+        figcaption {
+            font-size: 1rem;
+            
+        }
+
+        .product {
+            flex-direction: column;
+        }
+
+    }
+
+    @media (max-width: 414px) {
+
+        .image-container {
+            flex-direction: column;
+        }
+
+        figcaption {
+            font-size: 1rem;   
+        }
+
+       p.name {
+            margin-bottom: 20px; 
+        
+        }
+
+
+
+
+    }
+
+    @media (max-width: 375px) {
+        
+        /* Navigation */
+        
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        li a {
+            padding: 5px 4px;
+            font-size: .9em;
+        }
+
+       
+/* Headers */
+
+ h2.welcome {
+    font-size: 1.9rem;
+    margin-top: 10px;
+}
+
+h2#bakery {
+    font-size: 1.8rem;
+}
+
+h3.third-header {
+    font-size: 1.9rem;
+}
+
+h3#about.second-header {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+   
+    font-size: 1.3rem;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+   
+   
+}
+
+h3#products {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+
+}
+
+
+h4.company {
+    font-size: 1em;
+}
+
+h5.contact {
+    font-size: .9rem;
+    
+}
+
+ /* Text */
+
+p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+p.intro {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p.name {
+    margin-top: -6px;
+
+}
+
+
+figcaption {
+    font-size: 1rem;   
+}
+
+
+        h3#About.second-header {
+            margin-bottom: 20px;
+        }
+
+        /* Image Container */
+        .image-container {
+            flex-direction: column;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
