@@ -101,11 +101,6 @@ h5 {
  /* structure */
 
 
- img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
- }
 
 header {
 
@@ -155,7 +150,8 @@ header {
     padding-bottom: 50px; 
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-around; 
+    flex-direction: column;
+    justify-content:center; 
     align-items: center;
 }
 
@@ -218,7 +214,7 @@ a:active {
     align-self: center;
     text-align: center;
     line-height: 1.2;
-    max-width: 75%; 
+    max-width: 50%; 
     margin: 20px;
   
 }
@@ -259,11 +255,14 @@ p {
     font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
     color: #f9f7f4;
-    line-height: 1.8rem;
     text-align: center;
-    width: 100%;
-        
+    width: 100%; 
+    line-height: 2rem;
+    margin: auto;
+    padding-bottom: 50px; 
 }
+
+
 
 
 
@@ -299,7 +298,6 @@ p.intro {
     color: #040b16; 
     margin: auto;
     padding-bottom: 50px;
-    
     max-width: 80%;     
 }
 
@@ -316,10 +314,6 @@ p.intro {
         }
 
        
-        .about-us-container {
-            flex-direction: column;
-            
-        }
 
         figcaption {
             font-size: 1rem;
@@ -344,7 +338,10 @@ p.intro {
 
        p.name {
             margin-bottom: 20px; 
-        
+        }
+
+        .what-text {
+            line-height: 1.0;
         }
 
 
@@ -445,6 +442,49 @@ figcaption {
         }
 
     }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
