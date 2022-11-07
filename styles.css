@@ -223,8 +223,6 @@ a:active {
   
 }
 
-
-
 .products {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
@@ -265,8 +263,6 @@ p {
         
 }
 
-
-
 h3#about.second-header {
     color:#3d2d2d;
     font-family: 'PT Sans', sans-serif;
@@ -286,9 +282,6 @@ h3.third-header {
     line-height: 1.6;  
 
 }
-
-
-
 
 
 p.intro {
@@ -315,10 +308,7 @@ p.intro {
             font-size: 1em;
         }
 
-        .image-container {
-            flex-direction: column;
-        }
-
+       
         .about-us-container {
             flex-direction: column;
             
@@ -326,13 +316,28 @@ p.intro {
 
         figcaption {
             font-size: 1rem;
-            padding-bottom: 20px;
+            
         }
 
         .product {
             flex-direction: column;
         }
 
+    }
+
+    @media (max-width: 414px) {
+
+        .image-container {
+            flex-direction: column;
+        }
+
+        figcaption {
+            font-size: 1rem;   
+        }
+
+       p.name {
+            margin-bottom: 20px; 
+        }
     }
 
     @media (max-width: 375px) {
@@ -407,16 +412,69 @@ p.intro {
     font-weight: 600;
 }
 
-figcaption {
-    font-size: .9rem;
-    padding-bottom: 20px;
+p.name {
+    margin-top: -6px;
+
 }
 
+
+figcaption {
+    font-size: 1rem;   
+}
 
         h3#About.second-header {
             margin-bottom: 20px;
         }
 
+        /* Image Container */
+        .image-container {
+            flex-direction: column;
+        }
+
     }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
 
 
