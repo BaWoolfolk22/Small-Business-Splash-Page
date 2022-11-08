@@ -189,16 +189,16 @@ footer {
 
 
 
-a:visited {
+li.nav-item a:visited {
     color: #5f2164;
 }
 
-a:hover {
+li.nav-item a:hover {
     color:#5f9ea0;
     text-decoration: underline;
 }
 
-a:active {
+li.nav-item a:active {
     color:#404452;
     text-decoration: underline;
 }
